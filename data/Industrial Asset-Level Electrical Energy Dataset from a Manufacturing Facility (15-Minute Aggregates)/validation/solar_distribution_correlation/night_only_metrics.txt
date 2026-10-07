@@ -1,0 +1,15 @@
+night_db_vs_hp_total
+--------------------
+mae: 0.548833
+rmse: 2.895141
+median_residual: 0.090000
+p95_abs_residual: 0.610000
+corr: 0.991759
+
+night_db_vs_neg_hp_total
+------------------------
+mae: 40.286402
+rmse: 60.354644
+median_residual: 11.210000
+p95_abs_residual: 121.720000
+corr: -0.991759

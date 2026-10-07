@@ -1,0 +1,18 @@
+﻿Column name,Datatype,Description
+AssetId,VARCHAR,Anonymised asset identifier
+Phase,VARCHAR,"Electrical phase (L1, L2, L3, ALL)"
+window_start_utc,TIMESTAMP,Start of 15-min aggregation window (UTC)
+DateKeyUtc,INTEGER,UTC date key (YYYYMMDD)
+TimeKeyUtc,INTEGER,UTC time key (HHMMSS)
+WindowStartLocal,TIMESTAMP,Window start in local timezone
+HourLocal,INTEGER,Local hour of day
+DateLocal,DATE,Local calendar date
+Energy_kWh_15m,DOUBLE,Energy consumed during window
+Demand_kW,DOUBLE,Average demand over window
+AvgPower_kW_15m,DOUBLE,Reliability-weighted mean power
+Minutes,DOUBLE,Minutes of observed data in window
+SecondsObserved,DOUBLE,Total seconds observed
+DataCoveragePct,DOUBLE,Observed coverage (%)
+SecondsReliable,DOUBLE,Seconds passing reliability criteria
+ReliableCoveragePct,DOUBLE,Reliable coverage (%)
+IsReliableWindow,INTEGER,Reliability flag (1 = reliable)

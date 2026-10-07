@@ -1,0 +1,55 @@
+model_A_db_vs_hp_minus_pv
+-------------------------
+mae: 4.763240
+rmse: 17.766841
+median_residual: 0.080000
+p95_abs_residual: 26.640000
+corr: 0.979685
+
+model_B_db_vs_pv_minus_hp
+-------------------------
+mae: 107.484569
+rmse: 184.056962
+median_residual: 10.420000
+p95_abs_residual: 461.230000
+corr: -0.979685
+
+model_C_db_vs_hp_total
+----------------------
+mae: 42.893056
+rmse: 91.592377
+median_residual: 0.060000
+p95_abs_residual: 234.800000
+corr: 0.459016
+
+model_D_db_vs_neg_hp_total
+--------------------------
+mae: 65.150294
+rmse: 99.519382
+median_residual: 10.400000
+p95_abs_residual: 233.230000
+corr: -0.459016
+
+db_vs_pv_plus_grid
+------------------
+mae: 301.899641
+rmse: 341.256979
+median_residual: -291.717560
+p95_abs_residual: 601.909978
+corr: -0.170213
+
+db_vs_pv_minus_grid
+-------------------
+mae: 258.783475
+rmse: 296.321190
+median_residual: 218.952800
+p95_abs_residual: 517.587097
+corr: -0.773142
+
+db_vs_grid_minus_pv
+-------------------
+mae: 217.802187
+rmse: 247.764083
+median_residual: -230.997725
+p95_abs_residual: 402.320743
+corr: 0.773142

@@ -1,0 +1,23 @@
+sunny_db_vs_hp_minus_pv
+-----------------------
+mae: 12.387399
+rmse: 29.495588
+median_residual: 0.050000
+p95_abs_residual: 66.840000
+corr: 0.953077
+
+sunny_db_vs_pv_minus_hp
+-----------------------
+mae: 229.435074
+rmse: 297.555620
+median_residual: -192.190000
+p95_abs_residual: 606.790000
+corr: -0.953077
+
+sunny_db_vs_pv_plus_grid
+------------------------
+mae: 413.571139
+rmse: 445.929834
+median_residual: -398.715350
+p95_abs_residual: 704.613096
+corr: -0.326764

@@ -1,0 +1,25 @@
+asset_id,issue_type,issue_detail,asset_stream_start,asset_stream_end,issue_start,issue_end,issue_persisted_to_stream_end
+ahu_a,tag_misconfiguration,L3 power tag misconfiguration; had been correctly set originally but may have been overwritten during dashboard development updates.,01/01/2025 00:00,31/12/2025 23:59,10/03/2025 09:22,06/01/2026 00:00,TRUE
+ahu_b,reversed_ct_polarity,L2 Reversed CT Polarity,01/01/2025 00:00,31/12/2025 23:59,01/01/2025 00:00,08/12/2025 08:35,FALSE
+ahu_c,reversed_ct_polarity,L2 Reversed CT Polarity,01/01/2025 00:00,31/12/2025 23:59,01/01/2025 00:00,18/03/2025 11:14,FALSE
+ahu_c,phase_reference_misalignment_multi_phase,L2 + L3 misaligned references,01/01/2025 00:00,31/12/2025 23:59,01/01/2025 00:00,18/03/2025 11:14,FALSE
+u_a,reversed_ct_polarity,L2 Reversed CT Polarity,22/05/2025 13:25,31/12/2025 23:59,22/05/2025 13:25,10/12/2025 10:07,FALSE
+u_a,reversed_ct_polarity,L3 Reversed CT Polarity,22/05/2025 13:25,31/12/2025 23:59,22/05/2025 13:25,10/12/2025 10:07,FALSE
+mix_b,tag_misconfiguration,L3 power tag misconfiguration; had been correctly set originally but may have been overwritten during dashboard development updates.,01/01/2025 00:00,31/12/2025 23:59,10/03/2025 09:15,06/01/2026 00:00,TRUE
+ex_b,reversed_ct_polarity,L2 Reversed CT Polarity,01/01/2025 00:00,31/12/2025 23:59,01/01/2025 00:00,05/03/2025 00:41,FALSE
+ex_b,phase_reference_misalignment_multi_phase,L2 + L3 Misaligned Reference,01/01/2025 00:00,31/12/2025 23:59,01/01/2025 00:00,05/03/2025 00:41,FALSE
+p_a,phase_reference_misalignment_all_phases,Misaligned references on all lines,21/02/2025 00:11,31/12/2025 23:59,21/02/2025 00:11,26/03/2025 15:42,FALSE
+p_b,phase_reference_misalignment,L2 misaligned reference,01/01/2025 00:00,31/12/2025 23:59,01/01/2025 00:00,07/03/2025 08:53,FALSE
+p_b,phase_reference_misalignment,L3 misaligned reference,01/01/2025 00:00,31/12/2025 23:59,01/01/2025 00:00,07/03/2025 08:53,FALSE
+p_c,ct_ratio_misconfiguration,CT ratio misconfiguration,20/02/2025 22:05,31/12/2025 23:59,20/02/2025 22:05,21/05/2025 11:48,FALSE
+php_c,reversed_ct_polarity,L2 Reversed CT Polarity,17/08/2025 00:00,31/12/2025 23:59,17/08/2025 00:00,30/10/2025 11:56,FALSE
+p_d,phase_reference_misalignment_all_phases,Misaligned references on all lines,20/02/2025 19:51,31/12/2025 23:59,20/02/2025 19:51,04/04/2025 12:56,FALSE
+p_e,phase_reference_misalignment_all_phases,Misaligned references on all lines,05/02/2025 20:23,31/12/2025 23:59,05/02/2025 20:23,04/04/2025 13:27,FALSE
+p_f,reversed_ct_polarity,L2 Reversed CT Polarity,01/01/2025 00:00,31/12/2025 23:59,01/01/2025 00:00,05/03/2025 00:38,FALSE
+p_f,phase_reference_misalignment,L3 Misaligned Reference,01/01/2025 00:00,31/12/2025 23:59,01/01/2025 00:00,05/03/2025 00:38,FALSE
+p_h,phase_reference_misalignment_multi_phase,L1 + L2 Misaligned Reference,20/02/2025 22:05,31/12/2025 23:59,20/02/2025 22:05,26/03/2025 16:16,FALSE
+p_k,phase_reference_misalignment_multi_phase,L1 + L3 Misaligned References,01/01/2025 00:00,31/12/2025 23:59,01/01/2025 00:00,05/03/2025 00:35,FALSE
+p_k,reversed_ct_polarity,L1 Reversed CT Polarity,01/01/2025 00:00,31/12/2025 23:59,01/01/2025 00:00,05/03/2025 00:35,FALSE
+p_l,phase_reference_misalignment_all_phases,Misaligned references on all lines,21/03/2025 09:34,31/12/2025 23:59,21/03/2025 09:34,28/05/2025 14:22,FALSE
+p_m,phase_reference_misalignment_all_phases,Misaligned references on all lines,21/03/2025 08:19,31/12/2025 23:59,21/03/2025 08:19,10/09/2025 11:17,FALSE
+u_d,reversed_ct_polarity,L1 Reverse CT Polarity,01/01/2025 00:00,31/12/2025 23:59,01/01/2025 00:00,08/12/2025 08:40,FALSE

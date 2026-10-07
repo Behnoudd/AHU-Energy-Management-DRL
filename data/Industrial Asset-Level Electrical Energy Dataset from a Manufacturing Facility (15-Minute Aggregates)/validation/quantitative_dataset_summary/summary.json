@@ -1,0 +1,34 @@
+{
+  "dataset_summary_all_rows": {
+    "total_rows": 4103703,
+    "distinct_assets": 43,
+    "distinct_asset_phase_streams": 172,
+    "dataset_start_utc": "2024-12-31 07:30:00",
+    "dataset_end_utc": "2025-12-31 23:45:00",
+    "total_energy_kwh": 5917142.408608725,
+    "avg_data_coverage_pct": 99.98753924876965,
+    "median_data_coverage_pct": 100.0,
+    "avg_reliable_coverage_pct": 93.0716249581338,
+    "median_reliable_coverage_pct": 100.0,
+    "reliable_rows": 3792245.0,
+    "nonreliable_rows": 311458.0
+  },
+  "dataset_summary_all_phase": {
+    "total_all_phase_rows": 1039873,
+    "assets_in_all_phase": 43,
+    "all_phase_start_utc": "2024-12-31 07:30:00",
+    "all_phase_end_utc": "2025-12-31 23:45:00",
+    "total_all_phase_energy_kwh": 2958571.2043040264,
+    "avg_all_phase_data_coverage_pct": 99.99485588891892,
+    "median_all_phase_data_coverage_pct": 100.0,
+    "avg_all_phase_reliable_coverage_pct": 97.86772722352761,
+    "median_all_phase_reliable_coverage_pct": 100.0,
+    "reliable_all_phase_rows": 1016182.0
+  },
+  "files_scanned_glob": "industrial_electricity_monitoring_dataset/data_parquet/**/*.parquet",
+  "notes": {
+    "all_rows_includes_phases": "Includes L1/L2/L3/ALL if present.",
+    "all_phase_summary": "Usually most appropriate for manuscript-level dataset summary.",
+    "reliable_window_definition_source": "IsReliableWindow column from dataset"
+  }
+}
